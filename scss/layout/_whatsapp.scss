@@ -1,0 +1,32 @@
+.layout_whatsapp{
+	@include flex-center-center;
+	position: fixed;
+	bottom: 35px;
+	right: 25px;
+	z-index: 100;
+	gap: 10px;
+
+	@media(min-width: 1199px){
+		bottom: 80px;
+    }
+
+	&__button{
+		@include flex-center-center;
+		max-width: 82px !important;
+		height: auto;
+		padding: 15px;
+		background-color: #15B633;
+		border-radius: 100%;
+
+		&__img{
+			width: 30px;
+
+			img{
+			
+				width: 100%;
+			}
+		}
+		
+	}
+	
+}
