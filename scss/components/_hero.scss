@@ -1,9 +1,9 @@
-.hero_carrousel{
+.hero{
     background-image: url('../../img/flower-one.png');
     background-position: 0% 50% ;
     background-repeat: no-repeat;
    
-    &__hero{
+    &__about_us{
         width: 100%;
         position: relative;
         height: auto;
@@ -44,7 +44,7 @@
             }
             
             h1{
-                color: $black;
+                color: $pink;
                 font-size: 25px;
                 font-weight:bold;
                 text-align: center;
@@ -125,7 +125,7 @@
         }
     }
     
-    &__carrousel{
+    &__skills{
         padding-top: 15px;
         width: 100%;
         position: relative;
@@ -134,6 +134,7 @@
         margin-top: 30px;
         /*margin-top: 80px;*/
        @include flex-center-center;
+       flex-direction: column;
     
         @media(min-width:1199px){
             height: auto;
@@ -145,27 +146,75 @@
         .container{
             @include flex-center-center;
             flex-direction: column;
+        }
+
+        &__title{
+            padding-bottom: 30px;
+            h1{
+                color: $pink;
+                font-size: 20px;
+                text-align: center;
+                font-family:Poppins-Bold;
+           
+                @media(min-width:768px){
+                    font-size: 25px;
+                }
+        
+                @media(min-width:1199px){
+                    font-size: 30px;
+                }
+                        
+                @media(min-width:1700px){
+                    font-size: 35px;
+                }
+            }
+        }
+        &__grid{
+            /*border-radius: 5px;
+            background-color: rgba(201,178,186,0.7);*/
+            width: 100%;
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
             gap: 15px;
 
-            @media(min-width:768px){
+            @media(min-width:378px){
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            @media(min-width:578px){
+                grid-template-columns: repeat(6, 1fr);
+            }
+
+
+            @media(min-width:991px){
+                grid-template-columns: repeat(8, 1fr);
                 gap: 30px;
             }
 
             @media(min-width:1199px){
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(10, 1fr);
+            }
+
+            @media(min-width:1700px){
+                grid-template-columns: repeat(12, 1fr);
+            }
+
+            img.logo{
+                width: auto;
+                height: 70px;
+                margin: auto;
+
+                @media(min-width:378px){
+                    width: auto;
+                    height: 70px;
+                }
+
+                @media(min-width:991px){
+                    height: 90px;
+                }
             }
         }
-
-        &__imagen{
-            width: 80%;
-
-            @media(min-width: 1199px){
-                width: 100%;
-                height: 100%;
-            }
-        }
-
         &__carrousel{
             height: auto;
             
