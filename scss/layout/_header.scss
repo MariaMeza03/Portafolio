@@ -7,6 +7,7 @@
 	z-index: 100;
     background: transparent;
 	display: flex;
+	border-bottom: 1px solid $pink;
    
       @media(min-width:1199px){
         padding: 0 30px;
@@ -22,7 +23,7 @@
 	}
 
 	&--hide{
-		background: rgba(255,255,255,0.6);
+		background: rgba(0,0,0,0.8);
 
 	}
 

@@ -1,5 +1,6 @@
-.layout_whatsapp{
+.layout_redes{
 	@include flex-center-center;
+	flex-direction: column;
 	position: fixed;
 	bottom: 35px;
 	right: 25px;
@@ -12,19 +13,13 @@
 
 	&__button{
 		@include flex-center-center;
-		max-width: 82px !important;
+		flex-direction: column;
+		max-width: 100px !important;
 		height: auto;
 		padding: 15px;
-		background-color: #15B633;
-		border-radius: 100%;
 
-		&__img{
+		img{
 			width: 30px;
-
-			img{
-			
-				width: 100%;
-			}
 		}
 		
 	}

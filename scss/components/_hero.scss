@@ -1,6 +1,6 @@
 .hero_carrousel{
     background-image: url('../../img/flower-one.png');
-    background-position: 0% 40% ;
+    background-position: 0% 50% ;
     background-repeat: no-repeat;
    
     &__hero{
@@ -8,6 +8,7 @@
         position: relative;
         height: auto;
         /*margin-top: 80px;*/
+        padding:90px  0 0 0;
        @include flex-center-center;
     
         @media(min-width:1199px){
@@ -18,7 +19,7 @@
     
         .container{
             @include flex-center-center;
-            flex-direction: column;
+            flex-direction: column-reverse;
     
             @media(min-width:1199px){
                 display: grid;

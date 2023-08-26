@@ -55,7 +55,8 @@
   left: 0;
   z-index: 100;
   background: transparent;
-  display: flex; }
+  display: flex;
+  border-bottom: 1px solid #c9b2ba; }
   @media (min-width: 1199px) {
     .header {
       padding: 0 30px;
@@ -66,7 +67,7 @@
     top: 0;
     background: linear-gradient(90deg, #00489A); }
   .header--hide {
-    background: rgba(255, 255, 255, 0.6); }
+    background: rgba(0, 0, 0, 0.8); }
   @media (min-width: 1199px) {
     .header {
       height: auto; } }
@@ -247,41 +248,40 @@
           font-size: 18px;
           text-align: start; } }
 
-.layout_whatsapp {
+.layout_redes {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   position: fixed;
   bottom: 35px;
   right: 25px;
   z-index: 100;
   gap: 10px; }
   @media (min-width: 1199px) {
-    .layout_whatsapp {
+    .layout_redes {
       bottom: 80px; } }
-  .layout_whatsapp__button {
+  .layout_redes__button {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 82px !important;
+    flex-direction: column;
+    max-width: 100px !important;
     height: auto;
-    padding: 15px;
-    background-color: #15B633;
-    border-radius: 100%; }
-    .layout_whatsapp__button__img {
+    padding: 15px; }
+    .layout_redes__button img {
       width: 30px; }
-      .layout_whatsapp__button__img img {
-        width: 100%; }
 
 .hero_carrousel {
   background-image: url("../../img/flower-one.png");
-  background-position: 0% 40%;
+  background-position: 0% 50%;
   background-repeat: no-repeat; }
   .hero_carrousel__hero {
     width: 100%;
     position: relative;
     height: auto;
     /*margin-top: 80px;*/
+    padding: 90px  0 0 0;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -293,7 +293,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-direction: column; }
+      flex-direction: column-reverse; }
       @media (min-width: 1199px) {
         .hero_carrousel__hero .container {
           display: grid;
