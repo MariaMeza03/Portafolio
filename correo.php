@@ -1,7 +1,7 @@
 <?php   		
                 var_dump($_POST);
 				//Destinatario
-				$mail_destinatario = 'info@servicioastec.com';
+				$mail_destinatario = 'marimezamartinez03@gmail.com';
 				$subject = 'Solicitud Formulario GE';
 				$headers .= "From: ".$_POST['email']. "\r\n";
         $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
