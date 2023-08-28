@@ -544,6 +544,136 @@
           display: none; }
         .services__carrousel__item--one:hover .services__carrousel__item__information {
           display: flex; }
+      .services__carrousel__item--two {
+        width: 100%;
+        background: url("../../img/projects-web/Celtic.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--two:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--two:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--three {
+        width: 100%;
+        background: url("../../img/projects-web/Dipcen.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--three:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--three:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--four {
+        width: 100%;
+        background: url("../../img/projects-web/Evcorp.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--four:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--four:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--five {
+        width: 100%;
+        background: url("../../img/projects-web/Fletera.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--five:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--five:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--six {
+        width: 100%;
+        background: url("../../img/projects-web/fletes-urgentes.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--six:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--six:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--seven {
+        width: 100%;
+        background: url("../../img/projects-web/GL.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--seven:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--seven:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--eigth {
+        width: 100%;
+        background: url("../../img/projects-web/Kurses.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--eigth:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--eigth:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--nine {
+        width: 100%;
+        background: url("../../img/projects-web/licorne.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--nine:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--nine:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--ten {
+        width: 100%;
+        background: url("../../img/projects-web/Naturasol.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--ten:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--ten:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--eleven {
+        width: 100%;
+        background: url("../../img/projects-web/Samsung.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--eleven:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--eleven:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--twelve {
+        width: 100%;
+        background: url("../../img/projects-web/SolarAe-.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--twelve:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--twelve:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--thirteen {
+        width: 100%;
+        background: url("../../img/projects-web/Solares.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--thirteen:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--thirteen:hover .services__carrousel__item__information {
+          display: flex; }
+      .services__carrousel__item--fourteen {
+        width: 100%;
+        background: url("../../img/projects-web/SubZero-.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; }
+        .services__carrousel__item--fourteen:hover .services__carrousel__item__text {
+          display: none; }
+        .services__carrousel__item--fourteen:hover .services__carrousel__item__information {
+          display: flex; }
       .services__carrousel__item__information {
         height: 100%;
         display: flex;
@@ -565,8 +695,7 @@
           width: 100%;
           color: white;
           font-family: Poppins-Regular;
-          font-size: 15px;
-          text-align: center; }
+          font-size: 15px; }
           @media (min-width: 1199px) {
             .services__carrousel__item__information li {
               font-size: 18px; } }
