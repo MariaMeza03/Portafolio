@@ -71,6 +71,19 @@
             }
         }
 
+        p{
+            width: 100%;
+            color: $white;
+            font-family: Poppins-Regular;
+            font-size: 15px;
+            text-align: center;
+            padding-top: 15px;
+    
+            @media(min-width: 1199px){
+                font-size: 18px;
+            }
+        }
+
     }
 
     &__grid{
